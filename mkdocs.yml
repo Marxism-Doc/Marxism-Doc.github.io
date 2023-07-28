@@ -1,4 +1,4 @@
-site_name: 中文马克思主义文库
+site_name: 马克思主义文库
 theme:
   name: material
   language: zh
@@ -16,14 +16,20 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.path
     - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
     - toc.follow
     - toc.integrate
-    - navigation.top
 nav:
   - 主页: /
-  - 索引: /index/
+  - 索引:
+    - /index/
+    - 作者: /index/authors.md
+  - 政治经济学概论:
+    - /articles/xuhe/political-economy/
+    - 第一节 商品是资本主义经济的细胞: chap-01/sec-01.md
 extra:
   alternate:
     - name: English
