@@ -1,0 +1,37 @@
+site_name: 中文马克思主义文库
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/brightness-7
+        name: 切换到夜间模式
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/brightness-4
+        name: 切换到日间模式
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+nav:
+  - 主页: /
+  - 索引: /index/
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+plugins:
+  - tags:
+      tags_file: index/authors.md
