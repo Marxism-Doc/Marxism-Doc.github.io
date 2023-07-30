@@ -11,14 +11,14 @@
 <div class="font-switcher">
   <label for="font-selector">选择字体：</label>
   <select id="font-selector" onchange="changeFont()">
-    <option value="serif">默认衬线字体</option>
-	<option value="sans-serif">默认无衬线字体</option>
+    <option value="serif">默认衬线</option>
+	<option value="sans-serif">默认无衬线</option>
 	<option value="Source Han Serif SC">思源宋体</option>
 	<option value="Source Han Sans SC">思源黑体</option>
-	<option value="FZShuSong-Z01">方正书宋</option>
-	<option value="FZHei-B01">方正黑体</option>
-    <option value="SimSun">宋体</option>
+	<option value="FangZheng Serif">方正衬线</option>
+	<option value="FangZheng Sans Serif">方正无衬线</option>
     <option value="Microsoft YaHei">微软雅黑</option>
+    <option value="SimSun">宋体</option>
   </select>
 </div>
 

@@ -3,17 +3,8 @@ site_name: 马克思主义文库
 theme:
   name: material
   language: zh
-  font:
-    text: Noto Serif SC
-    size:
-      default: large
-      small: large
-      h1: large
-      h2: large
-      h3: large
-      h4: large
-      h5: large
-      h6: large
+  # font:
+  #   text: Noto Serif SC
   palette:
     - scheme: default
       primary: red
@@ -62,10 +53,10 @@ markdown_extensions:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  - css/custom.css
+  - src/css/custom.css
 
 extra_javascript:
-  - javascripts/katex.js
+  - src/javascripts/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-  - javascripts/custom.js
+  - src/javascripts/custom.js
