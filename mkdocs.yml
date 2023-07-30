@@ -1,4 +1,5 @@
 site_name: 马克思主义文库
+
 theme:
   name: material
   language: zh
@@ -23,6 +24,7 @@ theme:
     - navigation.top
     - navigation.footer
     - toc.follow
+
 nav:
   - 主页: index.md
   - 索引:
@@ -31,15 +33,24 @@ nav:
   - 政治经济学概论:
     - articles/xuhe/political-economy/index.md
     - 第一章 商品和货币:
-      - 第一节 商品是资本主义经济的细胞: articles/xuhe/political-economy/chap-01/sec-01.md
-extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: 中文
-      link: /zh/
-      lang: zh
+      - 第一节 商品与资本主义经济: articles/xuhe/political-economy/chap-01/sec-01.md
+      - 第二节 商品的使用价值和价值: articles/xuhe/political-economy/chap-01/sec-02.md
+      - 第三节 劳动的二重性: articles/xuhe/political-economy/chap-01/sec-03.md
+      - 第四节 价值形态与货币: articles/xuhe/political-economy/chap-01/sec-04.md
+      - 第五节 货币的职能: articles/xuhe/political-economy/chap-01/sec-05.md
+      - 第六节 价值规律: articles/xuhe/political-economy/chap-01/sec-06.md
+      - 第七节 商品拜物教: articles/xuhe/political-economy/chap-01/sec-07.md
+      - 第八节 对资产阶级理论的批判: articles/xuhe/political-economy/chap-01/sec-08.md
+
 plugins:
   - tags:
       tags_file: index/authors.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
