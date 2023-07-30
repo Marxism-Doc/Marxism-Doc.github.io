@@ -5,6 +5,15 @@ theme:
   language: zh
   font:
     text: Noto Serif SC
+    size:
+      default: large
+      small: large
+      h1: large
+      h2: large
+      h3: large
+      h4: large
+      h5: large
+      h6: large
   palette:
     - scheme: default
       primary: red
@@ -33,6 +42,7 @@ nav:
   - 政治经济学概论:
     - articles/xuhe/political-economy/index.md
     - 第一章 商品和货币:
+      - articles/xuhe/political-economy/chap-01/index.md
       - 第一节 商品与资本主义经济: articles/xuhe/political-economy/chap-01/sec-01.md
       - 第二节 商品的使用价值和价值: articles/xuhe/political-economy/chap-01/sec-02.md
       - 第三节 劳动的二重性: articles/xuhe/political-economy/chap-01/sec-03.md
@@ -50,7 +60,11 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+extra_css:
+  - css/custom.css
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/custom.js

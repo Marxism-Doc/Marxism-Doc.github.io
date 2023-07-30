@@ -10,4 +10,4 @@ tags: [徐禾]
 
 ## 书籍
 
-- [《政治经济学概论》](./political-economy/)
+- [《政治经济学概论》](./political-economy/index.md)
