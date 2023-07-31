@@ -42,6 +42,14 @@ nav:
       - 第六节 价值规律: articles/xuhe/political-economy/chap-01/sec-06.md
       - 第七节 商品拜物教: articles/xuhe/political-economy/chap-01/sec-07.md
       - 第八节 对资产阶级理论的批判: articles/xuhe/political-economy/chap-01/sec-08.md
+    - 第二章 资本和剩余价值:
+      - articles/xuhe/political-economy/chap-02/index.md
+      - 第一节 由货币到资本的转化: articles/xuhe/political-economy/chap-02/sec-01.md
+      - 第二节 劳动和价值增殖过程: articles/xuhe/political-economy/chap-02/sec-02.md
+      - 第三节 不变资本和可变资本: articles/xuhe/political-economy/chap-02/sec-03.md
+      - 第四节 绝对剩余价值的生产: articles/xuhe/political-economy/chap-02/sec-04.md
+      - 第五节 相对剩余价值的生产: articles/xuhe/political-economy/chap-02/sec-05.md
+      - 第六节 相对剩余价值三阶段: articles/xuhe/political-economy/chap-02/sec-06.md
 
 plugins:
   - tags:
