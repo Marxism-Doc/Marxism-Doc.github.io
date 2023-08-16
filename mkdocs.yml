@@ -24,6 +24,19 @@ theme:
     - navigation.top
     - navigation.footer
     - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+
+repo_url: https://github.com/Marxism-Doc/Marxism-Doc.github.io
+repo_name: Marxism-Doc
+edit_uri: edit/main/docs/
 
 nav:
   - 主页: index.md
@@ -84,6 +97,8 @@ nav:
 plugins:
   - tags:
       tags_file: index/authors.md
+  - search:
+      lang: zh
 
 markdown_extensions:
   - pymdownx.arithmatex:
