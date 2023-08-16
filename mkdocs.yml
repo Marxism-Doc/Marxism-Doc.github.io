@@ -74,6 +74,12 @@ nav:
       - 6　垫付资本的总周转及其周期: articles/xuhe/political-economy/chap-05/sec-06.md
       - 7　劳动期间和生产、流通时间: articles/xuhe/political-economy/chap-05/sec-07.md
       - 8　可变资本的周转及其影响: articles/xuhe/political-economy/chap-05/sec-08.md
+    - 六　社会资本的再生产和流通:
+      - articles/xuhe/political-economy/chap-06/index.md
+      - 1　个别资本和社会资本: articles/xuhe/political-economy/chap-06/sec-01.md
+      - 2　简单再生产社会产品的实现: articles/xuhe/political-economy/chap-06/sec-02.md
+      - 3　扩大再生产社会产品的实现: articles/xuhe/political-economy/chap-06/sec-03.md
+      - 4　社会产品实现的矛盾和困难: articles/xuhe/political-economy/chap-06/sec-04.md
 
 plugins:
   - tags:
