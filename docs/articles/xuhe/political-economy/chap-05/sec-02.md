@@ -10,10 +10,10 @@ $$
 \small
 \newcommand{\dash}{\mathop{\text{---}}}
 \begin{align*}
-	& \mathrm{\hphantom{G\dash W\cdots} \overbrace{\hphantom{P\cdots W'\dash G'\cdot G\dash W\cdots P}}^{(2)}}\\[-1ex]
+	& \mathrm{\hphantom{G\dash W\cdots{}} \overbrace{\hphantom{P\cdots W'\dash G'\cdot G\dash W\cdots P}}^{(2)}}\\[-1ex]
 	& \mathrm{G\dash W\cdots P\cdots W'\dash G'\cdot G\dash W\cdots P\cdots W'\dash G'\cdot G\dash W\cdots P\cdots\text{等等}}\\[-2.5ex]
 	& \mathrm{\underbrace{\hphantom{G\dash W\cdots P\cdots W'\dash G'}}_{(1)}}\\[-5ex]
-	& \mathrm{\hphantom{G\dash W\cdots P\cdots} \underbrace{\hphantom{W'\dash G'\cdot G\dash W\cdots P\cdots W'}}_{(3)}}
+	& \mathrm{\hphantom{G\dash W\cdots P\cdots{}} \underbrace{\hphantom{W'\dash G'\cdot G\dash W\cdots P\cdots W'}}_{(3)}}
 \end{align*}
 $$
 
