@@ -100,6 +100,13 @@ nav:
       - 3　利润转化为平均利润: articles/xuhe/political-economy/chap-07/sec-03.md
       - 4　价值转化为生产价格: articles/xuhe/political-economy/chap-07/sec-04.md
       - 5　平均利润率下降趋势的规律: articles/xuhe/political-economy/chap-07/sec-05.md
+    - 八　商业资本和商业利润:
+      - articles/xuhe/political-economy/chap-08/index.md
+      - 1　商业利润从产业资本中独立: articles/xuhe/political-economy/chap-08/sec-01.md
+      - 2　商业利润和商业价格: articles/xuhe/political-economy/chap-08/sec-02.md
+      - 3　商业纯粹流通费用及其补偿: articles/xuhe/political-economy/chap-08/sec-03.md
+      - 4　资本主义商业的形式: articles/xuhe/political-economy/chap-08/sec-04.md
+      - 5　资本主义国家的对外贸易: articles/xuhe/political-economy/chap-08/sec-05.md
 
 plugins:
   - tags:
