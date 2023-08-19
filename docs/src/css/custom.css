@@ -6,6 +6,10 @@
 	text-indent: 2em;
 }
 
+.md-typeset h1 {
+	word-break: keep-all;
+}
+
 .font-switcher {
 	display: inline-block;
 	background-color: #fff;
