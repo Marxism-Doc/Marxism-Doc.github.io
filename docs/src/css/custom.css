@@ -1,13 +1,48 @@
+:root {
+	--body-font-size: .8rem;
+	--text-font-family: serif;
+}
+
 .md-typeset {
-    font-size: 1.0rem;
+    font-size: var(--body-font-size);
 }
 
 .md-typeset p {
 	text-indent: 2em;
 }
 
+.md-typeset .admonition-title, .md-typeset summary {
+	text-indent: 0;
+}
+
 .md-typeset h1 {
 	word-break: keep-all;
+}
+
+aside,body,input {
+    font-family: var(--text-font-family);
+}
+
+@media screen and (max-width: 76.1875em) {
+    [dir=ltr] .md-sidebar--primary {
+        left:-14.4rem
+    }
+
+    [dir=rtl] .md-sidebar--primary {
+        right: -14.4rem
+    }
+
+    .md-sidebar--primary {
+        width: 14.4rem;
+    }
+
+    [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+        transform: translateX(14.4rem)
+    }
+
+    [dir=rtl] [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+        transform: translateX(-14.4rem)
+    }
 }
 
 .font-switcher {

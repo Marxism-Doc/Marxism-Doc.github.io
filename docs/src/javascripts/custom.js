@@ -1,21 +1,40 @@
-function changeFont() {
-	const fontSelector = document.getElementById("font-selector");
-	const selectedFont = fontSelector.value;
-	document.body.style.fontFamily = selectedFont;
-	localStorage.setItem("selectedFont", selectedFont);
+function changeFontFamily() {
+	const fontFamilySelector = document.getElementById("font-family-selector");
+	const selectedFontFamily = fontFamilySelector.value;
+	document.documentElement.style.setProperty('--text-font-family', selectedFontFamily);
+	localStorage.setItem("selectedFontFamily", selectedFontFamily);
 }
 
-function applyFont(storedFont) {
-	document.body.style.fontFamily = storedFont;
+function changeFontSize() {
+	const fontSizeSelector = document.getElementById("font-size-selector");
+	const selectedFontSize = fontSizeSelector.value;
+	document.documentElement.style.setProperty('--body-font-size', selectedFontSize);
+	localStorage.setItem("selectedFontSize", selectedFontSize);
+}
+
+function applyFontFamily(storedFontFamily) {
+	document.documentElement.style.setProperty('--text-font-family', storedFontFamily);
+}
+
+function applyFontSize(storedFontSize) {
+	document.documentElement.style.setProperty('--body-font-size', storedFontSize);
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-	const storedFont = localStorage.getItem("selectedFont");
-	if (storedFont) {
-		const fontSelector = document.getElementById("font-selector");
-		if (fontSelector) {
-			fontSelector.value = storedFont;
+	const storedFontFamily = localStorage.getItem("selectedFontFamily");
+	const storedFontSize = localStorage.getItem("selectedFontSize");
+	if (storedFontFamily) {
+		const fontFamilySelector = document.getElementById("font-family-selector");
+		if (fontFamilySelector) {
+			fontFamilySelector.value = storedFontFamily;
 		}
-		applyFont(storedFont);
+		applyFontFamily(storedFontFamily);
+	}
+	if (storedFontSize) {
+		const fontSizeSelector = document.getElementById("font-size-selector");
+		if (fontSizeSelector) {
+			fontSizeSelector.value = storedFontSize;
+		}
+		applyFontSize(storedFontSize);
 	}
 });
