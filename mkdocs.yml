@@ -124,6 +124,13 @@ nav:
       - 5　绝对地租: articles/xuhe/political-economy/chap-10/sec-05.md
       - 6　矿山建筑的地租、土地价格: articles/xuhe/political-economy/chap-10/sec-06.md
       - 7　小农经济的破产和城乡对立: articles/xuhe/political-economy/chap-10/sec-07.md
+    - 十一　资本主义的经济危机:
+      - articles/xuhe/political-economy/chap-11/index.md
+      - 1　经济危机的可能性和必然性: articles/xuhe/political-economy/chap-11/sec-01.md
+      - 2　资本主义经济危机的周期性: articles/xuhe/political-economy/chap-11/sec-02.md
+      - 3　资本主义经济危机矛盾锐化: articles/xuhe/political-economy/chap-11/sec-03.md
+      - 4　批判资产阶级经济危机理论: articles/xuhe/political-economy/chap-11/sec-04.md
+    - 后记: articles/xuhe/political-economy/postscript.md
 
 plugins:
   - tags:
