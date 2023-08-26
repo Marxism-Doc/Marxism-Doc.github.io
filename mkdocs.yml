@@ -115,6 +115,15 @@ nav:
       - 4　股份公司和虚拟资本: articles/xuhe/political-economy/chap-09/sec-04.md
       - 5　信用在资本主义经济中作用: articles/xuhe/political-economy/chap-09/sec-05.md
       - 6　信用制度下的货币流通: articles/xuhe/political-economy/chap-09/sec-06.md
+    - 十　地租:
+      - articles/xuhe/political-economy/chap-10/index.md
+      - 1　资本主义土地所有制和地租: articles/xuhe/political-economy/chap-10/sec-01.md
+      - 2　级差地租的第一形态: articles/xuhe/political-economy/chap-10/sec-02.md
+      - 3　级差地租的第二形态: articles/xuhe/political-economy/chap-10/sec-03.md
+      - 4　对土地肥力递减规律的批判: articles/xuhe/political-economy/chap-10/sec-04.md
+      - 5　绝对地租: articles/xuhe/political-economy/chap-10/sec-05.md
+      - 6　矿山建筑的地租、土地价格: articles/xuhe/political-economy/chap-10/sec-06.md
+      - 7　小农经济的破产和城乡对立: articles/xuhe/political-economy/chap-10/sec-07.md
 
 plugins:
   - tags:
