@@ -7,12 +7,8 @@
     font-size: var(--body-font-size);
 }
 
-.md-typeset p {
+.md-content__inner.md-typeset > p {
 	text-indent: 2em;
-}
-
-.md-typeset .admonition-title, .md-typeset summary {
-	text-indent: 0;
 }
 
 .md-typeset h1 {
