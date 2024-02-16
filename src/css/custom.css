@@ -1,0 +1,95 @@
+:root {
+	--body-font-size: .8rem;
+	--text-font-family: serif;
+}
+
+.md-typeset {
+    font-size: var(--body-font-size);
+}
+
+.md-content__inner.md-typeset > p {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+.md-typeset h1 {
+	word-break: keep-all;
+}
+
+aside,body,input {
+    font-family: var(--text-font-family);
+}
+
+@media screen and (max-width: 76.1875em) {
+    [dir=ltr] .md-sidebar--primary {
+        left:-14.4rem
+    }
+
+    [dir=rtl] .md-sidebar--primary {
+        right: -14.4rem
+    }
+
+    .md-sidebar--primary {
+        width: 14.4rem;
+    }
+
+    [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+        transform: translateX(14.4rem)
+    }
+
+    [dir=rtl] [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+        transform: translateX(-14.4rem)
+    }
+}
+
+.font-switcher {
+	display: inline-block;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.font-switcher label {
+	margin-right: 5px;
+}
+
+.font-switcher select {
+	padding: 5px;
+}
+
+@font-face {
+	font-family: 'FangZheng Serif';
+	src:
+		local('FZShuSong-Z01'),
+		url('../fonts/FZShuSong-Z01.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FangZheng Serif';
+	src:
+		local('FZXiaoBiaoSong-B05'),
+		url('../fonts/FZXiaoBiaoSong-B05.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FangZheng Sans Serif';
+	src:
+		local('FZHei-B01'),
+		url('../fonts/FZHei-B01.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FangZheng Sans Serif';
+	src:
+		local('FZDaHei-B02'),
+		url('../fonts/FZDaHei-B02.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}

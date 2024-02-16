@@ -1,0 +1,41 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{ctex}
+\setCJKmainfont{FZShuSong-Z01.TTF}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \def\ticklength{0.4}
+  \def\tickspace{0.8}
+  \def\sep{0.05}
+
+  \foreach \x in {0,...,12}
+  {
+    \ifnum\x=0\relax
+      \draw (\x*\tickspace,0) -- ++(0,2*\ticklength);
+      \node[above] at (\x*\tickspace,2*\ticklength) {\x};
+    \else\ifnum\x=6\relax
+      \draw (\x*\tickspace,-\ticklength) -- ++(0,3*\ticklength);
+      \node[above] at (\x*\tickspace,2*\ticklength) {\x 小时};
+    \else\ifnum\x=12\relax
+      \draw (\x*\tickspace,0) -- ++(0,2*\ticklength);
+      \node[above] at (\x*\tickspace,2*\ticklength) {\x 小时};
+    \else
+      \draw (\x*\tickspace,0) -- ++(0,\ticklength);
+    \fi\fi\fi
+  }
+
+  \draw (0,0) -- (12*\tickspace,0);
+
+	\draw [decorate,decoration={brace,amplitude=0.2cm}]
+		(6*\tickspace-\sep,-\ticklength-\sep) -- (0,-\ticklength-\sep) node [black,midway,yshift=-0.6cm]
+		{必要劳动时间};
+	\draw [decorate,decoration={brace,amplitude=0.2cm}]
+		(12*\tickspace,-\ticklength-\sep) -- (6*\tickspace+\sep,-\ticklength-\sep) node [black,midway,yshift=-0.6cm]
+		{剩余劳动时间};
+
+\end{tikzpicture}
+
+\end{document}
