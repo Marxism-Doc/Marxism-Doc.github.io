@@ -15,4 +15,6 @@ $files | ForEach-Object -Parallel {
 	xelatex $fileName
 	# 将 .pdf 文件转换为 .svg 文件
 	pdftocairo -svg "$fileNameWithoutExtension.pdf" "$fileNameWithoutExtension.svg"
+    # 将 .svg 中的 :rgb(0%,0%,0%) 替换为 :var(--md-typeset-color)
+    (Get-Content "$fileNameWithoutExtension.svg") -replace ":rgb\(0%,0%,0%\)", ":var(--md-typeset-color)" | Set-Content "$fileNameWithoutExtension.svg"
 }

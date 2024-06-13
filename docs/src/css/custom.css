@@ -1,6 +1,7 @@
 :root {
-	--body-font-size: .8rem;
-	--text-font-family: serif;
+    --body-font-size: .8rem;
+    --text-font-family: serif;
+    --widget-color: #EF5552;
 }
 
 .md-typeset {
@@ -8,12 +9,12 @@
 }
 
 .md-content__inner.md-typeset > p {
-	text-indent: 2em;
-	text-align: justify;
+    text-indent: 2em;
+    text-align: justify;
 }
 
 .md-typeset h1 {
-	word-break: keep-all;
+    word-break: keep-all;
 }
 
 aside,body,input {
@@ -43,53 +44,62 @@ aside,body,input {
 }
 
 .font-switcher {
-	display: inline-block;
-	background-color: #fff;
-	padding: 5px;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid var(--widget-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .font-switcher label {
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .font-switcher select {
-	padding: 5px;
+    padding: 5px;
+}
+
+.katex {
+    font-size: 1em;
+}
+
+
+
+@font-face {
+    font-family: 'FangZheng Serif';
+    src:
+        local('FZShuSong-Z01'),
+        url('/src/fonts/FZSSK.TTF') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'FangZheng Serif';
-	src:
-		local('FZShuSong-Z01'),
-		url('../fonts/FZShuSong-Z01.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+    font-family: 'FangZheng Serif';
+    src:
+        local('FZXiaoBiaoSong-B05'),
+        url('/src/fonts/FZXBSK.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'FangZheng Serif';
-	src:
-		local('FZXiaoBiaoSong-B05'),
-		url('../fonts/FZXiaoBiaoSong-B05.ttf') format('truetype');
-	font-weight: 700;
-	font-style: normal;
+    font-family: 'FangZheng Sans Serif';
+    src:
+        local('FZHei-B01'),
+        url('/src/fonts/FZHTK.TTF') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'FangZheng Sans Serif';
-	src:
-		local('FZHei-B01'),
-		url('../fonts/FZHei-B01.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+    font-family: 'FangZheng Sans Serif';
+    src:
+        local('FZDaHei-B02'),
+        url('/src/fonts/FZDHTK.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
-@font-face {
-	font-family: 'FangZheng Sans Serif';
-	src:
-		local('FZDaHei-B02'),
-		url('../fonts/FZDaHei-B02.ttf') format('truetype');
-	font-weight: 700;
-	font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@100..900&display=swap');

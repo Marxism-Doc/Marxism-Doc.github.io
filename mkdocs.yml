@@ -137,6 +137,7 @@ plugins:
       tags_file: index/authors.md
   - search:
       lang: zh
+  - inline-select-svg
 
 markdown_extensions:
   - pymdownx.arithmatex:
