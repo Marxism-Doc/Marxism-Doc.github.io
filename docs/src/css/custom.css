@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
 :root {
     --body-font-size: .8rem;
     --text-font-family: serif;
@@ -101,5 +104,42 @@ aside,body,input {
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@100..900&display=swap');
+/* @font-face {
+    font-family: 'Noto Serif SC (local)';
+    src:
+        local('Noto Serif SC'),
+        local('Source Han Serif SC'),
+        local('Source Han Serif CN');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif SC (local)';
+    src:
+        local('Noto Serif SC'),
+        local('Source Han Serif SC'),
+        local('Source Han Serif CN Bold');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans SC (local)';
+    src:
+        local('Noto Sans SC'),
+        local('Source Han Sans SC'),
+        local('Source Han Sans CN');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans SC (local)';
+    src:
+        local('Noto Sans SC'),
+        local('Source Han Sans SC'),
+        local('Source Han Sans CN Bold');
+    font-weight: 700;
+    font-style: normal;
+} */

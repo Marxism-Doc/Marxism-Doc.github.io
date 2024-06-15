@@ -13,8 +13,10 @@
 		<select id="font-family-selector" onchange="changeFontFamily()">
 			<option value="serif">默认衬线</option>
 			<option value="sans-serif">默认无衬线</option>
-			<option value="Source Han Serif SC">思源宋体</option>
-			<option value="Source Han Sans SC">思源黑体</option>
+			<option value="Noto Serif SC">思源宋体</option>
+			<option value="Noto Sans SC">思源黑体</option>
+            <!-- <option value="Noto Serif SC (local)">思源宋体（本地）</option>
+            <option value="Noto Sans SC (local)">思源黑体（本地）</option> -->
 			<option value="FangZheng Serif">方正衬线</option>
 			<option value="FangZheng Sans Serif">方正无衬线</option>
 			<option value="Microsoft YaHei">微软雅黑</option>
